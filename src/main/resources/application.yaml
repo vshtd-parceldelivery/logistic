@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: logistic
+  config:
+    import: configserver:http://${HOST}:8880
